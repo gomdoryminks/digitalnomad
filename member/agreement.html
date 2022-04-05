@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Space</title>
+		<meta name="description" content="Space">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta name="format-detection" content="telephone=no, address=no, email=no">
+		<link rel="shortcut icon" href="../img/logo-favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo-favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/swiper.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick-theme.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui-timepicker-addon.css" type="text/css" rel="stylesheet">
+        <link href="../css/fullcalendar-main.css" type="text/css" rel="stylesheet">
+        <link href="../css/member-common.css" type="text/css" rel="stylesheet">
+		<link href="../css/member-main.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+        <script src="../js/slick.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <script src="../js/jquery-ui-sortable.js"></script>
+        <script src="../js/jquery-ui-timepicker-addon.js"></script>
+		<script src="../js/datepicker-ko.js"></script>
+        <script src="../js/fullcalendar-main.js"></script>
+        <script src="../js/locales-ko.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/tippy-bundle.umd.min.js"></script>
+        <script src="../js/member-function.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+            <!-- header -->
+		    <header class="header">
+                <h1 class="not-view">header</h1>
+                
+                <div class="header-top">
+                    <div class="center-ct cf">
+                        <ul class="header-top-menu cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-main">
+                    <div class="center-ct cf">
+                        <div class="header-main-logo">
+                            <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                        </div>
+
+                        <!-- nav -->
+                        <nav class="nav">
+                            <h2 class="not-view">nav</h2>
+
+                            <ul class="nav-menu cf">
+                                <li>
+                                    <p class="nav-menu-tit">ABOUT</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="about-service-detail.html">서비스소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-team-list.html">팀소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-space-list.html">공간소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-partnership-list.html">파트너쉽</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">WORKS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="works-project-list.html">프로젝트</a>
+                                        </li>
+                                        <li>
+                                            <a href="works-portfolio-list.html">포트폴리오</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">PROGRAM</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="program-education-list.html">교육</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-community-list.html">커뮤니티</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-event-list.html">행사</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">BLOG</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="blog-column-list.html">칼럼</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">RESERVATION</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="reservation-studio-list.html">스튜디오예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-office-list.html">오피스예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-equipment-list.html">장비예약</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">NEWS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="news-notice-list.html">일반공지</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-information-list.html">생활정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-job-list.html">구인구직</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- mobile -->
+            <div class="mobile-area">
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                </div>
+                <div class="mobile-header-btn"></div>
+                
+                <div class="mobile-mask"></div>
+                <div class="mobile-box">
+                    <div class="mobile-top">
+                        <div class="mobile-close-btn"></div>
+                        <ul class="mobile-link cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mobile-menu cf">
+                        <li>
+                            <p class="mobile-menu-tit">ABOUT</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">WORKS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">PROGRAM</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">BLOG</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">RESERVATION</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">NEWS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+			<!-- content -->
+            <div class="content">
+                <section class="content-detail">
+                    <div class="center-ct">
+                        <!-- 상세 내용 (전체) -->
+                        <article class="detail-main">
+                            <!-- 상세 내용 제목 -->
+                            <div class="detail-tit">이용약관</div>
+                            
+                            <!-- 상세 약관 내용 -->
+                            <!-- agreement-big : 약관 대제목 -->
+                            <!-- agreement-medium : 약관 소제목 -->
+                            <!-- agreement-small : 약관 소제목에 대한 내용 -->
+                            <!-- agreement-indent : 약관 내용에서 앞에 순번이 있을 경우 -->
+                            <!-- agreement-indent-area : 약관 내용 안에 내용이 있을 경우 -->
+                            <div class="agreement-area">
+                                <div class="agreement-big">제1장 총칙 v1.1</div>
+                                <div class="agreement-medium">제1조(목적)</div>
+                                <div class="agreement-small">
+                                    이 약관은 제주특별자치도(이하 "도"라 합니다) 웹 관련서비스(모바일, 앱포함)를 이용함에 있어 제주특별자치도와 회원 및 비회원, 문화사랑회원 간의 이용조건ㆍ절차 및 권리ㆍ의무ㆍ책임사항 등에 관한 사항을 규정함을 목적으로 합니다
+                                </div> 
+                                <div class="agreement-medium">제2조(약관의 효력 및 변경)</div> 
+                                <div class="agreement-small">
+                                    이 약관 외에 통신망을 통하여 이용자에게 공지되는 내용은 약관의 일부로서 유효하고, 도는 필요하다고 인정되는 경우 이 약간의 내용을 변경 할 수 있으며 변경된 사항은 서비스 화면에 공지사항을 이용하여 공지합니다. 변경된 약관에 동의하지 않는 경우 서비스 이용을 중단하고 회원탈퇴신청을 할 수 있으며, 계속 서비스 이용하는 경우 약관변경에 동의한 것으로 간주하여 전항과 같은 방법으로 효력이 발생합니다.
+                                </div> 
+                                <div class="agreement-medium">제3조(준용규정)</div> 
+                                <div class="agreement-small">
+                                    이 서비스는 전기통신기본법, 전기통신사업법 및 관계법령에 규정하는 사항을 제외하고는 이 약관에 의하여 취급합니다.
+                                </div> 
+                                <div class="agreement-medium">제4조(정의)</div> 
+                                <div class="agreement-small">
+                                    <div>이 약관에서 사용하는 용어의 정의는 다음과 같습니다.</div>
+                                    <span class="agreement-indent">1. "제주특별자치도" 라함은 도에서 운영하는 인터넷 홈페이지(패밀리사이트 목록은 회원가입 화면에 공지)를 말합니다.</span> 
+                                    <span class="agreement-indent">2. "이용자" 라함은 제주특별자치도에 접속하여 서비스를 받는 회원 및 비회원을 말합니다.</span> 
+                                    <span class="agreement-indent">3. "회원" 이라함은 제주특별자치도에 회원으로 가입 등록하여 회원ID를 부여받은 자로서 회원에 한하여 제공하는 서비스를 이용할 수 있는 자를 말합니다.</span> 
+                                    <span class="agreement-indent">4. "비회원" 이라함은 본인확인계정을 통해 제주특별자치도가 제공하는 서비스를 이용하는 자를 말합니다.</span> 
+                                    <span class="agreement-indent">5. "문화사랑회원" 이라함은 해당 기관 (문화예술진흥원, 제주아트센터, 서귀포 예술의 전당)의 문화예술행사에 한하여 관람료 감면혜택 서비스를 받는 자를 말하며 신규회원 또는 기존회원이 추가로 가입 및 해지가 가능합니다.</span> 
+                                    <span class="agreement-indent">6. "회원ID" 이라함은 회원식별과 회원의 서비스 이용을 위하여 회원자신이 선정하고 도가 승인하는 문자와 숫자의 조합(6자이상)입니다.</span> 
+                                    <span class="agreement-indent">7. "비밀번호" 라함은 회원의 비밀 보호를 위해 회원 자신이 설정한 문자와 숫자, 특수문자의 조합(9자이상)으로 제주특별자치도에 접속권한 인증 여부를 검사하기 위하여 사용하는 문자열을 말합니다.</span> 
+                                    <span class="agreement-indent">8. "회원탈퇴" 라함은 회원이 서비스 이용계약을 종료시키는 의사표시를 말합니다.</span>
+                                </div> 
+                                <div class="agreement-big">제2장 서비스 이용계약</div> 
+                                <div class="agreement-medium">제5조(회원가입신청)</div> 
+                                <div class="agreement-small">
+                                    회원가입신청은 서비스의 회원가입 화면에서 약관에 동의한다는 의사표시를 하고 이용자가 도에서 요구하는 가입신청 양식에 회원정보를 등록하는 방식으로 신청합니다.
+                                </div> 
+                                <div class="agreement-medium">제6조(가입승낙)</div>
+                                <div class="agreement-small">
+                                    신청자가 가입신청 내용을 허위, 기재누락, 오기로 게재하였을 경우를 제외하고는 모든 신청자에게 가입승낙을 원칙으로 합니다.
+                                </div> 
+                                <div class="agreement-medium">제7조(가입사항의 변경 및 해지)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">①회원은 서비스의 회원정보 화면을 통해 언제든지 자신의 정보를 열람하고 수정할 수 있습니다. 회원은 이용신청 시 기재한 사항이 변경되었을 때에는 수정을 하여야 하며, 수정하지 아니하여 발생하는 문제의 책임은 회원에게 있습니다.</span> 
+                                    <span class="agreement-indent">②회원이 회원가입을 해지하고자 하실 때에는 회원 본인이 직접 회원정보 화면을 통해 탈퇴 신청을 하여야 합니다.</span>
+                                </div>
+                                <div class="agreement-medium">제7조의 1(회원 자격의 제한 및 자격상실)</div> 
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">①이용자가 다음 각 호의 사유에 해당하는 경우 사전 통지 없이 회원자격을 해지하거나, 중지할 수 있습니다.</span>
+                                    <div class="agreement-indent-area">
+                                        <span class="agreement-indent">1. 타인의 이용자ID 및 비밀번호를 도용한 경우</span>  
+                                        <span class="agreement-indent">2. 서비스 운영을 고의로 방해한 경우</span>  
+                                        <span class="agreement-indent">3. 허위로 가입 신청을 한 경우</span>  
+                                        <span class="agreement-indent">4. 회원 기본정보가 변경되어 회원과 연락이 불가한 경우</span>  
+                                        <span class="agreement-indent">5. 같은 사용자가 다른 ID로 이중 등록을 한 경우</span>  
+                                        <span class="agreement-indent">6. 공공질서 및 미풍양속에 저해되는 내용을 유포시킨 경우</span>  
+                                        <span class="agreement-indent">7. 타인의 명예를 손상시키거나 불이익을 주는 행위를 한 경우</span>  
+                                        <span class="agreement-indent">8. 컴퓨터 바이러스 유포등 서비스의 운영을 고의로 방해한 경우</span>  
+                                        <span class="agreement-indent">9. 기타 관련법령에 위반된다고 판단되는 경우</span>  
+                                    </div>
+                                    <span class="agreement-indent">②도는 2년을 주기로 회원의 개인정보처리 재동의 절차를 걸치며, 재동의 하지 않은 회원은 자동 탈퇴 처리됩니다. 이후 재가입을 원하시는 경우 신규 회원가입(기존 회원 ID 사용 불가)이 필요합니다.</span> 
+                                </div>
+                                <div class="agreement-medium">제8조(서비스 이용)</div>
+                                <div class="agreement-small">
+                                    서비스 이용은 정기점검 등 도가 필요로 정한 날, 업무상 또는 기술상 특별한 지장이 없는 한 연중무휴(1일 24시간) 서비스를 하며, 제주특별자치도의 모든 자료는 이용자들이 자유롭게 이용할 수 있습니다. 다만, 실명을 요하는 게시판 글 올리기 등은 회원 및 비회원(본인인증)에 한하여 권한을 줄 수 있습니다.
+                                </div> 
+                                <div class="agreement-big">제3장 인터넷이용</div> 
+                                <div class="agreement-medium">제9조(정보의 제공 및 광고의 게재)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">①도는 회원이 서비스 이용 중 필요가 있다고 인정되는 다양한 정보 및 광고에 대해서는 전자우편이나 서신우편, 휴대폰 문자메시지, DM 등의 방법으로 다양한 서비스를 제공할 수 있으며, 만약 원치 않는 정보를 수신한 경우 회원은 이를 수신거부 할 수 있습니다.</span> 
+                                    <span class="agreement-indent">②도는 서비스의 운용과 관련하여 서비스화면, 홈페이지, 전자우편 등에 광고 등을 게재할 수 있으며, 도는 서비스를 이용하고자 하는 회원이 이 광고게재에 대하여 동의하는 것으로 간주합니다.</span>
+                                </div>
+                                <div class="agreement-medium">제10조(회원ID 및 비밀번호관리)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">①회원ID 및 비밀번호의 관리는 회원의 책임으로 합니다.</span>  
+                                    <span class="agreement-indent">②회원의 회원ID 및 비밀번호에 의하여 발생되는 사용상의 과실 또는 제 3자에 의한 부정사용 등에 대한 모든 책임은 회원에게 있습니다.</span>  
+                                    <span class="agreement-indent">③회원 자신의 회원ID가 부정하게 사용된 경우 회원은 반드시 도에 그 사실을 통보해야 합니다.</span>  
+                                </div>
+                                <div class="agreement-medium">제11조(문화사랑 회원 서비스 이용)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">①문화사랑회원은 해당기관의 (문화예술진흥원, 제주아트센터, 서귀포 예술의 전당)의 조례에 따라 운영 됩니다.</span> 
+                                    <span class="agreement-indent">②문화사랑회원은 제주특별자치도 홈페이지 회원에 한해 가입 및 해지가 가능합니다.</span> 
+                                    <span class="agreement-indent">③회원정보수정을 통해 언제든지 선택 가입 및 해지가 가능하나, 제주특별자치도의 홈페이지 회원 탈퇴 시 문화사랑회원도 탈퇴처리 됩니다.</span> 
+                                </div>
+                                <div class="agreement-medium">제12조(게시물의 관리)</div>
+                                <div class="agreement-small">
+                                    <div>제주특별자치도 이용자는 다음 각호에 해당하는 사항을 게재하여서는 아니되며 게시물 내용이 다음 각호의 1에 해당한다고 판단되는 경우에는 제7조의1(회원 자격의 제한 및 자격상실)에 준하고, 해당 게시물은 통보없이 삭제할 수 있습니다.</div>
+                                    <span class="agreement-indent">1. 국가안전이나 보안에 위배되는 경우</span> 
+                                    <span class="agreement-indent">2. 선거와 관련한 내용, 정치적 목적이나 성향이 있는 경우</span> 
+                                    <span class="agreement-indent">3. 특정기관, 단체, 부서를 근거없이 비난하는 경우</span> 
+                                    <span class="agreement-indent">4. 특정인을 비방하거나 명예훼손의 우려가 있는 경우</span> 
+                                    <span class="agreement-indent">5. 영리목적의 상업성 광고, 저작권을 침해할 수 있는 내용</span> 
+                                    <span class="agreement-indent">6. 욕설, 음란물 등 불건전한 내용</span> 
+                                    <span class="agreement-indent">7. 실명을 원칙으로 하는 경우에 실명을 사용하지 않았거나 실명이 아닌 것으로 판단되었을 경우</span> 
+                                    <span class="agreement-indent">8. 동일인 또는 동일인이라고 인정되는 자가 똑같은 내용을 주 2회 이상 게시하거나 비슷한 내용을 1일 2회 이상 게시하는 경우</span> 
+                                    <span class="agreement-indent">9. 연습성, 오류, 장난성의 내용</span> 
+                                    <span class="agreement-indent">10. 기타 관계법령에 위배된다고 판단되는 경우</span> 
+                                </div>
+                                <div class="agreement-medium">제13조(도의 의무)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">① 제주특별자치도 시스템을 계속적 안정적으로 서비스를 제공할 의무가 있습니다.</span> 
+                                    <span class="agreement-indent">② 제주특별자치도 서비스를 위한 설비에 장애가 발생될 때에는 신속한 복구가 가능하도록 조치하여야 합니다</span> 
+                                    <span class="agreement-indent">③ 전화 또는 메일 등을 이용 가입회원에 대한 실명확인을 할 수 있으며, 가입회원의 신상정보를 본인의 승낙없이 제3자에게 누설, 배포하지 않습니다.다만, 전기통신기본법 등 법률의 규정에 의해 국가기관의 요구가 있는 경우, 범죄에 대한 수사상의 목적이 있거나 정보통신윤리위원회의 요청이 있는 경우 또는 기타 관계법령에서 정한 절차에 따른 요청이 있는 경우에는 그러하지 않습니다.</span> 
+                                    <span class="agreement-indent">④ 서비스 내용의 변경 또는 추가사항이 있을 경우에는 온라인으로 공지합니다.</span> 
+                                    <span class="agreement-indent">⑤ 제주특별자치도의 모든 정보가 제10조에 위배되는지의 점검을 위하여 필요한 경우에 일부 회원의 정보를 열람한 후 그 결과를 홈페이지에 게시할 수 있습니다. 제주특별자치도 이용자는 게시물을 정확하고 올바르게 등록해야 하며 게시물 등록에 의해 발생되는 모든 문제에 대하여는 민·형사상의 책임을 져야 합니다.</span>
+                                </div>
+                                <div class="agreement-medium">제14조(이용자의 의무)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">① 제주특별자치도 이용자는 이 약관에서 규정하는 사항 이외에 서비스 이용안내와 주의사항을 준수하여야 합니다.</span> 
+                                    <span class="agreement-indent">② 회원가입자는 제주특별자치도 이용권한, 기타 가입계약상 지위를 타인에게 양도, 증여 할 수 없으며, 이를 담보로 제공할 수 없습니다.</span>
+                                </div>
+                                <div class="agreement-medium">제15조(개인정보보호정책)</div>
+                                <div class="agreement-small">
+                                    <span class="agreement-indent">① 회원가입 또는 서비스 이용 신청시 회원이 제공하는 정보를 통하여 정보를 수집하며, 개인정보는 본 이용계약의 이행과 본 이용계약상의 서비스제공을 목적으로 이용합니다.</span> 
+                                    <span class="agreement-indent">② 취득한 회원의 정보를 본인의 승낙 없이 제3자에게 누설 또는 배포할 수 없으며 상업적 목적으로 사용할 수 없습니다. 다만, 다음의 각 호의 경우에는 그러하지 아니합니다.</span>
+                                    <div class="agreement-indent-area">
+                                        <span class="agreement-indent">1. 관계법령에 의하여 수사상의 목적으로 관계기관으로부터 요구가 있는 경우</span> 
+                                        <span class="agreement-indent">2. 정보통신윤리위원회의 요청이 있는 경우</span> 
+                                        <span class="agreement-indent">3. 기타 관계법령에서 정한 절차에 따른 요청이 있는 경우</span> 
+                                    </div>
+                                </div>
+                                <div class="agreement-big">제4장 저작권</div> 
+                                <div class="agreement-medium">제16조(게재된 자료에 대한 권리)</div>
+                                <div class="agreement-small">
+                                    <div>제주특별자치도에 게재된 자료에 대한 권리는 다음 각호의 1과 같습니다.</div>
+                                    <div class="agreement-indent-area">
+                                        <span class="agreement-indent">1. 제주특별자치도에 게재된 자료를 상업적 목적으로 이용할 수 없습니다.</span> 
+                                        <span class="agreement-indent">2. 게재한 게시물에 대한 권리와 책임은 게시자에게 있습니다. 다만, 도는 게시자의 동의없이 이를 비영리적으로 이용할 수 있으며, 게시물을 영리적으로 이용할 시는 반드시 게시자의 동의를 사전에 얻어야 합니다.</span> 
+                                        <span class="agreement-indent">3. 도는 회원이 게재한 게시물의 신뢰도나 정확도 그리고 게시자 이외의 이용자가 게시물을 상업적으로 이용하였을 경우 책임을 지지 아니합니다.</span> 
+                                        <span class="agreement-indent">4. 제주특별자치도에 수록된 컨텐츠의 무단 또는 불법 복제ㆍ배포는 저작권법에 의하여 처벌되나, 사전에 도의 동의를 얻은 경우는 그러하지 아니합니다. </span>
+                                    </div>
+                                </div>
+                                <div class="agreement-big">제5장 가입비 및 이용요금</div> 
+                                <div class="agreement-medium">제17조(가입비 및 이용요금)</div>
+                                <div class="agreement-small">
+                                    제주특별자치도의 가입비, 이용요금은 무료입니다.
+                                </div> 
+                                <div class="agreement-big">제6장 이의신청 및 손해배상청구 금지</div> 
+                                <div class="agreement-medium">제18조(이의신청 금지)</div>
+                                <div class="agreement-small">
+                                    이용자는 도에서 제공하는 서비스 이용시 발생되는 문제에 대해서 이의신청 및 민원을 제기 할 수 없습니다.
+                                </div>
+                                <div class="agreement-medium">제19조(손해배상 청구금지)</div>
+                                <div class="agreement-small">
+                                    이용자는 도에서 제공하는 서비스 이용시 발생되는 문제에 대하여 도에 손해배상청구를 할 수 없으며 도는 이에 대해 책임을 지지 아니합니다.
+                                </div>
+                                <div class="agreement-medium">제19조(면책조항)</div>
+                                <div class="agreement-small">
+                                    도는 천재지변 또는 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 대한 책임이 면제됩니다. 또한 회원 및 비회원의 귀책사유로 인한 서비스 이용의 장애와 회원 및 비회원이 게재한 정보, 자료, 신뢰도, 정확성 등의 내용에 관하여는 책임을지지 않습니다.
+                                </div>
+                                <div class="agreement-medium">부칙</div>
+                                <div class="agreement-small">
+                                    본 약관은 2018년 12월19일부터 시행합니다.
+                                </div>
+                            </div>
+                            <select name="" id="" class="content-select">
+                                <option value="2022-01-01">이용약관 시행일 : 2022-01-01</option>
+                                <option value="2021-01-01">이용약관 시행일 : 2021-01-01</option>
+                                <option value="2020-01-01">이용약관 시행일 : 2020-01-01</option>
+                            </select>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- footer -->
+			<footer class="footer">
+				<h1 class="not-view">footer</h1>
+                
+                <div class="center-ct cf">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="../img/footer_logo.png" alt="로고"></a>
+                    </div>
+
+                    <div class="footer-info">
+                        <ul class="footer-info-link cf">
+                            <li>
+                                <a href="agreement.html">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="policy.html">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="openDefaultLayer('email-layer',this);">이메일주소무단수집거부</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer-info-tit">스페이스 모노</div>
+                        <ul class="footer-info-con cf">
+                            <li>
+                                <div class="tit">대표</div>
+                                <div class="con">홍길동</div>
+                            </li>
+                            <li>
+                                <div class="tit">사업자등록번호</div>
+                                <div class="con">000-00-00000</div>
+                            </li>
+                            <li>
+                                <div class="tit">통신판매업 신고번호</div>
+                                <div class="con">제2021-서울강남-1234호</div>
+                            </li>
+                            <li>
+                                <div class="tit">주소</div>
+                                <div class="con">서울특별시 강남구 OO로 OOO</div>
+                            </li>
+                            <li>
+                                <div class="tit">이메일</div>
+                                <div class="con">admin@jejudigitalnomad.co.kr</div>
+                            </li>
+                        </ul>
+                        <div class="footer-info-copyright">COPYRIGHT © 2021 ALL RIGHTS RESERVED.</div>
+                    </div>
+
+                    <ul class="footer-menu cf">
+                        <li>
+                            <p class="footer-menu-tit">ABOUT</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">WORKS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">PROGRAM</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">BLOG</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">RESERVATION</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">NEWS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+			</footer>
+            
+            <!-- back to top -->
+            <div class="back-to-top"></div>
+            
+            <!-- layer -->
+            <div class="layer-wrap" id="alert-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn confirm-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layer-wrap" id="confirm-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn half-btn confirm-btn">확인</button>
+                        <button type="button" class="layer-btn half-btn close-btn" onclick="closeLayer(this);">취소</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="layer-wrap" id="default-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-title">
+                        <div class="layer-title-txt"></div>
+                        <button type="button" class="layer-title-btn close-btn" onclick="closeLayer(this);"><img src="../img/pop_close.png" alt="레이어닫기"></button>
+                    </div>
+                    <div class="layer-content"></div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>

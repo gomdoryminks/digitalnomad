@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Space</title>
+		<meta name="description" content="Space">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta name="format-detection" content="telephone=no, address=no, email=no">
+		<link rel="shortcut icon" href="../img/logo-favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo-favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/swiper.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick-theme.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui-timepicker-addon.css" type="text/css" rel="stylesheet">
+        <link href="../css/fullcalendar-main.css" type="text/css" rel="stylesheet">
+        <link href="../css/member-common.css" type="text/css" rel="stylesheet">
+		<link href="../css/member-main.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+        <script src="../js/slick.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <script src="../js/jquery-ui-sortable.js"></script>
+        <script src="../js/jquery-ui-timepicker-addon.js"></script>
+		<script src="../js/datepicker-ko.js"></script>
+        <script src="../js/fullcalendar-main.js"></script>
+        <script src="../js/locales-ko.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/tippy-bundle.umd.min.js"></script>
+        <script src="../js/member-function.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+            <!-- header -->
+		    <header class="header">
+                <h1 class="not-view">header</h1>
+                
+                <div class="header-top">
+                    <div class="center-ct cf">
+                        <ul class="header-top-menu cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-main">
+                    <div class="center-ct cf">
+                        <div class="header-main-logo">
+                            <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                        </div>
+
+                        <!-- nav -->
+                        <nav class="nav">
+                            <h2 class="not-view">nav</h2>
+
+                            <ul class="nav-menu cf">
+                                <li>
+                                    <p class="nav-menu-tit">ABOUT</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="about-service-detail.html">서비스소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-team-list.html">팀소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-space-list.html">공간소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-partnership-list.html">파트너쉽</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">WORKS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="works-project-list.html">프로젝트</a>
+                                        </li>
+                                        <li>
+                                            <a href="works-portfolio-list.html">포트폴리오</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">PROGRAM</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="program-education-list.html">교육</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-community-list.html">커뮤니티</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-event-list.html">행사</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">BLOG</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="blog-column-list.html">칼럼</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">RESERVATION</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="reservation-studio-list.html">스튜디오예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-office-list.html">오피스예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-equipment-list.html">장비예약</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">NEWS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="news-notice-list.html">일반공지</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-information-list.html">생활정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-job-list.html">구인구직</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- mobile -->
+            <div class="mobile-area">
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                </div>
+                <div class="mobile-header-btn"></div>
+                
+                <div class="mobile-mask"></div>
+                <div class="mobile-box">
+                    <div class="mobile-top">
+                        <div class="mobile-close-btn"></div>
+                        <ul class="mobile-link cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mobile-menu cf">
+                        <li>
+                            <p class="mobile-menu-tit">ABOUT</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">WORKS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">PROGRAM</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">BLOG</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">RESERVATION</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">NEWS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+			<!-- content -->
+            <div class="content">
+                <section class="content-detail">
+                    <div class="center-ct">
+                        <!-- 상세 내용 (오른쪽) -->
+                        <article class="detail-right">
+                            <div class="detail-info-area">
+                                <div class="detail-tit">회의실 이름이 들어갑니다.</div>
+                                <div class="detail-price">20,000원</div>
+
+                                <!-- application-area : 상세 신청하기 -->
+                                <div class="application-area">
+                                    <!-- application-item : setApplication(id) 함수를 호출하면 해당 id를 가진 태그만 보여줌 -->
+                                    <div class="application-item" id="application-1">
+                                        <div class="detail-btn-area">
+                                            <button type="button" class="detail-btn" onclick="setApplication('application-2');">예약하기</button>
+                                        </div>
+                                    </div>
+                                    <!-- application-item : setApplication(id) 함수를 호출하면 해당 id를 가진 태그만 보여줌 -->
+                                    <div class="application-item" id="application-2">
+                                        <div class="application-form">
+                                            <div class="content-table-area">
+                                                <table class="content-table">
+                                                    <colgroup>
+                                                        <col width="25%">
+                                                        <col width="75%">
+                                                    </colgroup>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>예약자명</th>
+                                                            <td><input type="text" name="" id="" class="content-text"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>연락처</th>
+                                                            <td><input type="text" name="" id="" class="content-text only-number"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>생년월일</th>
+                                                            <td><input type="text" name="" id="" class="content-text only-number"></td>
+                                                        </tr>
+                                                        <!--<tr>
+                                                            <th>예약일자</th>
+                                                            <td><input type="text" name="" id="" class="content-text content-date-text" autocomplete="off"></td>
+                                                        </tr>-->
+                                                        <tr>
+                                                            <th colspan="2"><div class="content-only-text">예약일자</div></th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2">
+                                                                <input type="text" name="" id="" class="content-text content-calendar-text" readonly autocomplete="off">
+                                                                <div class="content-calendar"></div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="reservation-time-area">
+                                                            <th colspan="2"><div class="content-only-text">예약시간</div></th>
+                                                        </tr>
+                                                        <tr class="reservation-time-area">
+                                                            <td colspan="2">
+                                                                <input type="hidden" name="disabledTime" id="disabledTime" value="8,9,10,11,18,19">
+                                                                <!--<input type="text" name="" id="" class="content-text content-time-text" readonly autocomplete="off">-->
+                                                                <input type="hidden" name="" id="" class="content-text content-time-text">
+                                                                <!-- on : 선택한 경우, disabled : 선택이 불가능한 경우 -->
+                                                                <ul class="content-time-list cf">
+                                                                    <li data-time="0">00:00</li>
+                                                                    <li data-time="1">01:00</li>
+                                                                    <li data-time="2">02:00</li>
+                                                                    <li data-time="3">03:00</li>
+                                                                    <li data-time="4">04:00</li>
+                                                                    <li data-time="5">05:00</li>
+                                                                    <li data-time="6">06:00</li>
+                                                                    <li data-time="7">07:00</li>
+                                                                    <li data-time="8">08:00</li>
+                                                                    <li data-time="9">09:00</li>
+                                                                    <li data-time="10">10:00</li>
+                                                                    <li data-time="11">11:00</li>
+                                                                    <li data-time="12">12:00</li>
+                                                                    <li data-time="13">13:00</li>
+                                                                    <li data-time="14">14:00</li>
+                                                                    <li data-time="15">15:00</li>
+                                                                    <li data-time="16">16:00</li>
+                                                                    <li data-time="17">17:00</li>
+                                                                    <li data-time="18">18:00</li>
+                                                                    <li data-time="19">19:00</li>
+                                                                    <li data-time="20">20:00</li>
+                                                                    <li data-time="21">21:00</li>
+                                                                    <li data-time="22">22:00</li>
+                                                                    <li data-time="23">23:00</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <!--<tr class="reservation-time-area">
+                                                            <th>대여시간</th>
+                                                            <td>
+                                                                <select name="rentalTime" id="rentalTime" class="content-select">
+                                                                    <option value="">대여시간선택</option>
+                                                                </select>
+                                                            </td>
+                                                        </tr>-->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="content-checkbox">
+                                                <input type="checkbox" name="application_agreement" id="application_agreement">
+                                                <label for="application_agreement">디지털노마드 <a href="javascript:void(0);" onclick="openDefaultLayer('agreement-layer',this);">이용약관</a>에 동의합니다.</label>
+                                            </div>
+                                            <div class="content-checkbox">
+                                                <input type="checkbox" name="application_policy" id="application_policy">
+                                                <label for="application_policy">디지털노마드 <a href="javascript:void(0);" onclick="openDefaultLayer('policy-layer',this);">개인정보처리방침</a>에 동의합니다.</label>
+                                            </div>
+                                            <div class="detail-btn-area">
+                                                <button type="button" class="detail-btn detail-half-btn" onclick="setApplicationConfirm('reservation',this);">예약하기</button>
+                                                <button type="button" class="detail-btn detail-half-btn detail-cancel-btn" onclick="setApplication('application-1');">취소</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <!-- 상세 내용 (왼쪽) -->
+                        <article class="detail-left">
+                            <!-- detail-info-area : 상세 내용 영역 -->
+                            <div class="detail-info-area">
+                                <!-- detail-tit : 상세 내용 제목 -->
+                                <div class="detail-tit">회의실에 대한 소개글</div>
+                                <!-- detail-con : 상세 내용 내용 -->
+                                <div class="detail-con">APP 개발을 위해 만들어진 틀이없는 팀입니다.<br><br>무한한 가능성을 가지고 다양한 시도를 하다보면 세상을 구성하는<br>다양한 삶의 조각들을 몸소 느끼게 됩니다.<br><br>혼자서는 어려웠지만 함께하는 팀원이 있다면<br>내 기술과 생각의 스펙트럼이 한차원 나아지는 것을 경험하게 됩니다.<br><br>낯설지만 낯설지 않은 팀원들과의 교류로 좋은 결과물을 얻을 수 있도록 함께해보고 싶습니다.</div>
+                                <!-- detail-tit : 상세 내용 제목 -->
+                                <div class="detail-tit">온라인 마케팅 회의실</div>
+                                <!-- detail-img : 상세 내용 이미지 -->
+                                <div class="detail-img"><img src="../img/sample-detail-img2.png" alt="상세이미지"></div>
+                                <!-- detail-img-explain : 상세 내용 이미지 설명 -->
+                                <div class="detail-img-explain">이미지에 대한 설명이 들어갑니다.</div>
+                                <!-- detail-con : 상세 내용 내용 -->
+                                <div class="detail-con">APP 개발을 위해 만들어진 틀이없는 팀입니다.<br><br>무한한 가능성을 가지고 다양한 시도를 하다보면 세상을 구성하는<br>다양한 삶의 조각들을 몸소 느끼게 됩니다.<br><br>혼자서는 어려웠지만 함께하는 팀원이 있다면<br>내 기술과 생각의 스펙트럼이 한차원 나아지는 것을 경험하게 됩니다.<br><br>낯설지만 낯설지 않은 팀원들과의 교류로 좋은 결과물을 얻을 수 있도록 함께해보고 싶습니다.</div>
+                                <!-- detail-btn-area : 상세 내용 버튼 -->
+                                <div class="content-btn-area detail-btn-area">
+                                    <button type="button" class="content-btn content-btn-type1" onclick="location.href='reservation-conferenceroom-list.html';">목록으로</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- footer -->
+			<footer class="footer">
+				<h1 class="not-view">footer</h1>
+                
+                <div class="center-ct cf">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="../img/footer_logo.png" alt="로고"></a>
+                    </div>
+
+                    <div class="footer-info">
+                        <ul class="footer-info-link cf">
+                            <li>
+                                <a href="agreement.html">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="policy.html">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="openDefaultLayer('email-layer',this);">이메일주소무단수집거부</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer-info-tit">스페이스 모노</div>
+                        <ul class="footer-info-con cf">
+                            <li>
+                                <div class="tit">대표</div>
+                                <div class="con">홍길동</div>
+                            </li>
+                            <li>
+                                <div class="tit">사업자등록번호</div>
+                                <div class="con">000-00-00000</div>
+                            </li>
+                            <li>
+                                <div class="tit">통신판매업 신고번호</div>
+                                <div class="con">제2021-서울강남-1234호</div>
+                            </li>
+                            <li>
+                                <div class="tit">주소</div>
+                                <div class="con">서울특별시 강남구 OO로 OOO</div>
+                            </li>
+                            <li>
+                                <div class="tit">이메일</div>
+                                <div class="con">admin@jejudigitalnomad.co.kr</div>
+                            </li>
+                        </ul>
+                        <div class="footer-info-copyright">COPYRIGHT © 2021 ALL RIGHTS RESERVED.</div>
+                    </div>
+
+                    <ul class="footer-menu cf">
+                        <li>
+                            <p class="footer-menu-tit">ABOUT</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">WORKS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">PROGRAM</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">BLOG</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">RESERVATION</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">NEWS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+			</footer>
+            
+            <!-- back to top -->
+            <div class="back-to-top"></div>
+            
+            <!-- layer -->
+            <div class="layer-wrap" id="alert-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn confirm-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layer-wrap" id="confirm-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn half-btn confirm-btn">확인</button>
+                        <button type="button" class="layer-btn half-btn close-btn" onclick="closeLayer(this);">취소</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="layer-wrap" id="default-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-title">
+                        <div class="layer-title-txt"></div>
+                        <button type="button" class="layer-title-btn close-btn" onclick="closeLayer(this);"><img src="../img/pop_close.png" alt="레이어닫기"></button>
+                    </div>
+                    <div class="layer-content"></div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>
