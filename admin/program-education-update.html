@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Space</title>
+		<meta name="description" content="Space">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<link rel="shortcut icon" href="../img/logo-favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo-favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/swiper.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick-theme.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui-timepicker-addon.css" type="text/css" rel="stylesheet">
+        <link href="../css/fullcalendar-main.css" type="text/css" rel="stylesheet">
+        <link href="../css/admin-common.css" type="text/css" rel="stylesheet">
+		<link href="../css/admin-main.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+        <script src="../js/slick.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <script src="../js/jquery-ui-sortable.js"></script>
+        <script src="../js/jquery-ui-timepicker-addon.js"></script>
+		<script src="../js/datepicker-ko.js"></script>
+        <script src="../js/fullcalendar-main.js"></script>
+        <script src="../js/locales-ko.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/tippy-bundle.umd.min.js"></script>
+        <script src="../js/admin-function.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+            <!-- header -->
+		    <header class="header">
+                <h1 class="not-view">header</h1>
+                
+                <div class="header-top">
+                    <div class="center-ct cf">
+                        <ul class="header-top-menu cf">
+                            <li>
+                                <a href="#" class="not-pointer">관리자님</a>
+                            </li>
+                            <li>
+                                <a href="managers-admin-update.html">계정관리</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-main">
+                    <div class="center-ct cf">
+                        <div class="header-main-logo">
+                            <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                        </div>
+
+                        <!-- nav -->
+                        <nav class="nav">
+                            <h2 class="not-view">nav</h2>
+
+                            <ul class="nav-menu cf">
+                                <li>
+                                    <p class="nav-menu-tit">MANAGERS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="managers-admin-list.html">관리자관리</a>
+                                        </li>
+                                        <li>
+                                            <a href="managers-log-list.html">로그관리</a>
+                                        </li>
+                                        <li>
+                                            <a href="managers-agreement-list.html">약관관리</a>
+                                        </li>
+                                        <li>
+                                            <a href="managers-code-list.html">코드관리</a>
+                                        </li>
+                                        <li>
+                                            <a href="managers-ip-update.html">IP관리</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">ABOUT</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="about-service-update.html">서비스소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-team-list.html">팀소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-space-list.html">공간소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-partnership-list.html">파트너쉽</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">WORKS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="works-project-list.html">프로젝트</a>
+                                        </li>
+                                        <li>
+                                            <a href="works-portfolio-list.html">포트폴리오</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">PROGRAM</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="program-education-list.html">교육</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-community-list.html">커뮤니티</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-event-list.html">행사</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">BLOG</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="blog-column-list.html">칼럼</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">RESERVATION</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="reservation-studio-list.html">스튜디오예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-office-list.html">오피스예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-equipment-list.html">장비예약</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">NEWS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="news-notice-list.html">일반공지</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-information-list.html">생활정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-job-list.html">구인구직</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+			<!-- content -->
+            <div class="content">
+                <section class="content-detail">
+                    <div class="center-ct">
+                        <!-- aside -->
+                        <aside class="aside">
+                            <h1 class="not-view">aside</h1>
+                            
+                            <div class="aside-tit">PROGRAM</div>
+                            <ul class="aside-list cf">
+                                <li class="on">
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </aside>
+                        
+                        <!-- 관리자 오른쪽 내용 -->
+                        <div class="admin-right-area">
+                            <!-- 관리자 제목 -->
+                            <div class="admin-tit">교육 수정</div>
+                            
+                            <!-- 관리자 상세 -->
+                            <div class="admin-detail-area">
+                                <div class="content-table-area">
+                                    <table class="content-table">
+                                        <colgroup>
+                                            <col width="14%">
+                                            <col width="36%">
+                                            <col width="14%">
+                                            <col width="36%">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th>프로그램명*</th>
+                                                <td colspan="3"><input type="text" name="" id="" class="content-text"></td>
+                                            </tr>
+                                            <tr>
+                                                <th>모집인원*</th>
+                                                <td>
+                                                    <!-- only-number : 숫자만 입력할 경우 -->
+                                                    <input type="text" name="" id="" class="content-text only-number">
+                                                </td>
+                                                <th>참가비용*</th>
+                                                <td>
+                                                    <!-- only-number : 숫자만 입력할 경우 -->
+                                                    <input type="text" name="" id="" class="content-text only-number">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>신청시작일자*</th>
+                                                <td>
+                                                    <!-- content-datetime-text : 날짜+시간을 입력할 경우 -->
+                                                    <input type="text" name="" class="content-text content-datetime-text" autocomplete="off">
+                                                </td>
+                                                <th>신청종료일자*</th>
+                                                <td>
+                                                    <!-- content-datetime-text : 날짜+시간을 입력할 경우 -->
+                                                    <input type="text" name="" class="content-text content-datetime-text" autocomplete="off">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>프로그램<br>시작일자*</th>
+                                                <td>
+                                                    <!-- content-datetime-text : 날짜+시간을 입력할 경우 -->
+                                                    <input type="text" name="" class="content-text content-datetime-text" autocomplete="off">
+                                                </td>
+                                                <th>프로그램<br>종료일자*</th>
+                                                <td>
+                                                    <!-- content-datetime-text : 날짜+시간을 입력할 경우 -->
+                                                    <input type="text" name="" class="content-text content-datetime-text" autocomplete="off">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>내용</th>
+                                                <td colspan="3"><textarea name="" id="" class="content-textarea">스마트 에디터 폼 사용</textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <th>이미지</th>
+                                                <td colspan="3">
+                                                    <!-- variable-file-area : 파일 폼 추가할 경우 -->
+                                                    <div class="variable-file-area">
+                                                        <!-- add-file-btn : 파일 폼 추가 버튼 / data-name : 파일명과 파일아이디 설정 (없을 경우 빈값, 규칙은 data-name_순번) / data-max-num : 업로드 가능한 최대 파일 개수 (없을 경우 제한없음) -->
+                                                        <button type="button" class="content-btn content-btn-type1 add-file-btn" data-name="variable_file" data-max-num="5" onclick="addFileArea(this);">추가</button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="content-btn-area">
+                                    <button type="button" class="content-btn content-btn-type3" onclick="">삭제</button>
+                                    <button type="button" class="content-btn content-btn-type2" onclick="history.back();">취소</button>
+                                    <button type="button" class="content-btn content-btn-type1" onclick="">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- footer -->
+			<footer class="footer">
+				<h1 class="not-view">footer</h1>
+                
+                <div class="center-ct cf">
+                    <div class="footer-txt">MONO SPACE 2021. All copyrights reserved.</div>
+                </div>
+			</footer>
+            
+            <!-- back to top -->
+            <div class="back-to-top"></div>
+            
+            <!-- layer -->
+            <div class="layer-wrap" id="alert-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn confirm-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layer-wrap" id="confirm-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn half-btn confirm-btn">확인</button>
+                        <button type="button" class="layer-btn half-btn close-btn" onclick="closeLayer(this);">취소</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="layer-wrap" id="default-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-title">
+                        <div class="layer-title-txt"></div>
+                        <button type="button" class="layer-title-btn close-btn" onclick="closeLayer(this);"><img src="../img/pop_close.png" alt="레이어닫기"></button>
+                    </div>
+                    <div class="layer-content"></div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>
