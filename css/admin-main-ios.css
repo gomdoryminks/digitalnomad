@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.wrap {
+    padding-top: calc(constant(safe-area-inset-top) + 0px);
+    padding-top: calc(env(safe-area-inset-top) + 0px);
+    padding-bottom: calc(constant(safe-area-inset-bottom) + 0px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 0px);
+}
+
+/************************************************
+
+					login
+
+*************************************************/
+.content-login .login-area {
+    min-height: calc(constant(safe-area-inset-bottom) + 100vh);
+    min-height: calc(env(safe-area-inset-bottom) + 100vh);
+}
+
+/************************************************
+
+					back to top
+
+*************************************************/
+.back-to-top {
+    bottom: calc(constant(safe-area-inset-bottom) + 20px);
+    bottom: calc(env(safe-area-inset-bottom) + 20px);
+}
+
+/************************************************
+
+					layer
+
+*************************************************/
+.layer-wrap {
+    height: calc(constant(safe-area-inset-bottom) + 100%);
+    height: calc(env(safe-area-inset-bottom) + 100%);
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+.layer-wrap .layer-box .layer-content {
+    max-height: calc(constant(safe-area-inset-bottom) + 100vh - 60px);
+    max-height: calc(env(safe-area-inset-bottom) + 100vh - 60px);
+}
+.layer-wrap .layer-box .layer-title + .layer-content {
+    max-height: calc(constant(safe-area-inset-bottom) + 100vh - 119px);
+    max-height: calc(env(safe-area-inset-bottom) + 100vh - 119px);
+}
+

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/************************************************
+
+					setting
+
+*************************************************/
+.wrap {
+	padding-top: calc(constant(safe-area-inset-top) + 0px);
+    padding-top: calc(env(safe-area-inset-top) + 0px);
+    padding-bottom: calc(constant(safe-area-inset-bottom) + 0px);
+    padding-bottom: calc(env(safe-area-inset-bottom) + 0px);
+}
+
+/************************************************
+
+					header
+
+*************************************************/
+header.header {
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+
+/************************************************
+
+					mobile
+
+*************************************************/
+.mobile-area {
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+.mobile-area .mobile-mask {
+    height: calc(constant(safe-area-inset-bottom) + 100%);
+    height: calc(env(safe-area-inset-bottom) + 100%);
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+.mobile-area .mobile-box {
+    height: calc(constant(safe-area-inset-bottom) + 100%);
+    height: calc(env(safe-area-inset-bottom) + 100%);
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+
+/************************************************
+
+					back to top
+
+*************************************************/
+.back-to-top {
+    bottom: calc(constant(safe-area-inset-bottom) + 20px);
+    bottom: calc(env(safe-area-inset-bottom) + 20px);
+}
+
+@media screen and (max-width: 550px) {
+    .back-to-top {
+        bottom: calc(constant(safe-area-inset-bottom) + 10px);
+        bottom: calc(env(safe-area-inset-bottom) + 10px);
+    }
+}
+
+/************************************************
+
+					layer
+
+*************************************************/
+.layer-wrap {
+    height: calc(constant(safe-area-inset-bottom) + 100%);
+    height: calc(env(safe-area-inset-bottom) + 100%);
+    top: calc(constant(safe-area-inset-top) + 0px);
+    top: calc(env(safe-area-inset-top) + 0px);
+}
+.layer-wrap .layer-box .layer-content {
+    max-height: calc(constant(safe-area-inset-bottom) + 100vh - 60px);
+    max-height: calc(env(safe-area-inset-bottom) + 100vh - 60px);
+}
+.layer-wrap .layer-box .layer-title + .layer-content {
+    max-height: calc(constant(safe-area-inset-bottom) + 100vh - 119px);
+    max-height: calc(env(safe-area-inset-bottom) + 100vh - 119px);
+}
+
