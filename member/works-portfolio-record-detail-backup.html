@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Space</title>
+		<meta name="description" content="Space">
+		<meta name="author" content="minks">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+		<meta name="format-detection" content="telephone=no, address=no, email=no">
+		<link rel="shortcut icon" href="../img/logo-favicon.ico">
+		<link rel="apple-touch-icon" href="../img/logo-favicon.ico">
+		
+		<link href="../css/reset.css" type="text/css" rel="stylesheet">
+		<link href="../css/font.css" type="text/css" rel="stylesheet">
+		<link href="../css/swiper.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick.css" type="text/css" rel="stylesheet">
+        <link href="../css/slick-theme.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui.min.css" type="text/css" rel="stylesheet">
+        <link href="../css/jquery-ui-timepicker-addon.css" type="text/css" rel="stylesheet">
+        <link href="../css/fullcalendar-main.css" type="text/css" rel="stylesheet">
+        <link href="../css/member-common.css" type="text/css" rel="stylesheet">
+		<link href="../css/member-main.css" type="text/css" rel="stylesheet">
+		
+		<!--[if lt IE 9]>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<!--[if gte IE 9]>
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<![endif]-->
+		
+		<!--[if !IE]>--> 
+		<script src="../js/jquery-3.4.1.min.js"></script>
+		<!--<![endif]-->
+		
+		<script src="../js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="../js/swiper.min.js"></script>
+        <script src="../js/slick.js"></script>
+        <script src="../js/jquery-ui.min.js"></script>
+        <script src="../js/jquery-ui-sortable.js"></script>
+        <script src="../js/jquery-ui-timepicker-addon.js"></script>
+		<script src="../js/datepicker-ko.js"></script>
+        <script src="../js/fullcalendar-main.js"></script>
+        <script src="../js/locales-ko.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/tippy-bundle.umd.min.js"></script>
+        <script src="../js/member-function.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+            <!-- header -->
+		    <header class="header">
+                <h1 class="not-view">header</h1>
+                
+                <div class="header-top">
+                    <div class="center-ct cf">
+                        <ul class="header-top-menu cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-main">
+                    <div class="center-ct cf">
+                        <div class="header-main-logo">
+                            <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                        </div>
+
+                        <!-- nav -->
+                        <nav class="nav">
+                            <h2 class="not-view">nav</h2>
+
+                            <ul class="nav-menu cf">
+                                <li>
+                                    <p class="nav-menu-tit">ABOUT</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="about-service-detail.html">서비스소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-team-list.html">팀소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-space-list.html">공간소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-partnership-list.html">파트너쉽</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">WORKS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="works-project-list.html">프로젝트</a>
+                                        </li>
+                                        <li>
+                                            <a href="works-portfolio-list.html">포트폴리오</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">PROGRAM</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="program-education-list.html">교육</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-community-list.html">커뮤니티</a>
+                                        </li>
+                                        <li>
+                                            <a href="program-event-list.html">행사</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">BLOG</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="blog-column-list.html">칼럼</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">RESERVATION</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="reservation-studio-list.html">스튜디오예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-office-list.html">오피스예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                        </li>
+                                        <li>
+                                            <a href="reservation-equipment-list.html">장비예약</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="nav-menu-tit">NEWS</p>
+                                    <ul class="nav-sub-menu cf">
+                                        <li>
+                                            <a href="news-notice-list.html">일반공지</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-information-list.html">생활정보</a>
+                                        </li>
+                                        <li>
+                                            <a href="news-job-list.html">구인구직</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- mobile -->
+            <div class="mobile-area">
+                <div class="mobile-header-logo">
+                    <a href="index.html"><img src="../img/logo.png" alt="로고"></a>
+                </div>
+                <div class="mobile-header-btn"></div>
+                
+                <div class="mobile-mask"></div>
+                <div class="mobile-box">
+                    <div class="mobile-top">
+                        <div class="mobile-close-btn"></div>
+                        <ul class="mobile-link cf">
+                            <li>
+                                <a href="#" class="not-pointer">사용자님</a>
+                            </li>
+                            <li>
+                                <a href="mypage-myinfo.html">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="login.html">로그아웃</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mobile-menu cf">
+                        <li>
+                            <p class="mobile-menu-tit">ABOUT</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">WORKS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">PROGRAM</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">BLOG</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">RESERVATION</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="mobile-menu-tit">NEWS</p>
+                            <ul class="mobile-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+			<!-- content -->
+            <div class="content">
+                <section class="content-detail">
+                    <div class="center-ct">
+                        <!-- 상세 내용 (전체) -->
+                        <article class="detail-main">
+                            <!-- 상세 내용 제목 -->
+                            <div class="detail-tit">포트폴리오 프로젝트명이 들어갑니다.</div>
+                            
+                            <!-- 상세 게시판 제목 -->
+                            <div class="detail-board-tit">
+                                <div class="board-tit">포트폴리오 기록지 제목이 들어갑니다.</div>
+                                <div class="board-etc">
+                                    <div class="board-etc-item">조회 100</div>
+                                    <div class="board-etc-item">홍길동</div>
+                                    <div class="board-etc-item">2021-10-24</div>
+                                </div>
+                            </div>
+                            
+                            <!-- 상세 게시판 내용 -->
+                            <div class="detail-board-con">
+                                <!-- board-img : 상세 게시판 이미지 -->
+                                <div class="board-img"><img src="../img/sample-detail-img2.png" alt="상세이미지"></div>
+                                <!-- board-img-explain : 상세 게시판 이미지 설명 -->
+                                <div class="board-img-explain">이미지에 대한 설명이 들어갑니다.</div>
+                                <!-- board-con : 상세 게시판 내용 -->
+                                <div class="board-con">APP 개발을 위해 만들어진 틀이없는 팀입니다.<br><br>무한한 가능성을 가지고 다양한 시도를 하다보면 세상을 구성하는<br>다양한 삶의 조각들을 몸소 느끼게 됩니다.<br><br>혼자서는 어려웠지만 함께하는 팀원이 있다면<br>내 기술과 생각의 스펙트럼이 한차원 나아지는 것을 경험하게 됩니다.<br><br>낯설지만 낯설지 않은 팀원들과의 교류로 좋은 결과물을 얻을 수 있도록 함께해보고 싶습니다.</div>
+                            </div>
+                            
+                            <!-- 상세 게시판 링크 -->
+                            <div class="detail-board-link">
+                                <div class="board-link-item">
+                                    <div class="board-link-tit">첨부파일</div>
+                                    <div class="board-link-con">
+                                        <div class="content-file-text"><a href="#">첨부파일1</a></div>
+                                        <div class="content-file-text"><a href="#">첨부파일2</a></div>
+                                        <div class="content-file-text"><a href="#">첨부파일3</a></div>
+                                    </div>
+                                </div>
+                                <div class="board-link-item">
+                                    <div class="board-link-tit">이전글</div>
+                                    <div class="board-link-con"><a href="#">이전 포트폴리오 기록지에 제목이 들어갑니다.</a></div>
+                                </div>
+                                <div class="board-link-item">
+                                    <div class="board-link-tit">다음글</div>
+                                    <div class="board-link-con">다음글이 없습니다.</div>
+                                </div>
+                            </div>
+                            
+                            <!-- 상세 게시판 버튼 -->
+                            <div class="content-btn-area">
+                                <button type="button" class="content-btn content-btn-type3" onclick="location.href='works-portfolio-record-list.html';">삭제</button>
+                                <button type="button" class="content-btn content-btn-type2" onclick="location.href='works-portfolio-record-list.html';">목록</button>
+                                <button type="button" class="content-btn content-btn-type1" onclick="location.href='works-portfolio-record-update.html';">수정</button>
+                            </div>
+                            
+                            <!-- 상세 게시판 댓글 -->
+                            <div class="detail-board-comment">
+                                <!-- 게시판 댓글 제목 -->
+                                <div class="board-comment-tit">COMMENT</div>
+
+                                <!-- 게시판 댓글 입력폼 -->
+                                <!-- 댓글 추가 -->
+                                <div class="board-comment-form">
+                                    <div class="comment-form-item cf">
+                                        <textarea name="" id="" class="content-textarea" placeholder="댓글내용"></textarea>
+                                        <button type="button" class="content-btn content-btn-type2" onclick="addCommentSubmit('new',this);">확인</button>
+                                    </div>
+                                </div>
+                                <!-- //댓글 추가 -->
+
+                                <!-- 게시판 댓글 목록 -->
+                                <!-- 1depth -->
+                                <div class="board-comment-list">
+                                    <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                    <div class="comment-list-item" data-idx="1">
+                                        <!-- 댓글 내용 -->
+                                        <div class="board-comment-form">
+                                            <div class="comment-form-item cf">
+                                                <div class="comment-form-left">
+                                                    <div class="comment-form-writer">홍길동</div>
+                                                    <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                </div>
+                                                <div class="comment-form-right">
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="modComment('1');">수정</a></div>
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="delCommentCheck(this);">삭제</a></div>
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="addComment(this);">답글</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="comment-form-item cf">
+                                                <div class="comment-form-con">댓글 내용이 들어갑니다.</div>
+                                            </div>
+                                        </div>
+                                        <!-- //댓글 내용 -->
+                                        <!-- 2depth -->
+                                        <div class="board-comment-list">
+                                            <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                            <div class="comment-list-item" data-idx="2">
+                                                <!-- 댓글의 답글 추가 -->
+                                                <div class="board-comment-form">
+                                                    <div class="comment-form-item cf">
+                                                        <div class="comment-form-left">
+                                                            <div class="comment-form-link"><a href="javascript:void(0);" onclick="addCommentCancel(this);">답글취소</a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="comment-form-item cf">
+                                                        <textarea name="" id="" class="content-textarea" placeholder="댓글내용"></textarea>
+                                                        <button type="button" class="content-btn content-btn-type2" onclick="addCommentSubmit('reply',this);">확인</button>
+                                                    </div>
+                                                </div>
+                                                <!-- //댓글의 답글 추가 -->
+                                            </div>
+                                        </div>
+                                        <!-- //2depth -->
+                                    </div>
+                                    <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                    <div class="comment-list-item" data-idx="3">
+                                        <!-- 댓글 수정 -->
+                                        <div class="board-comment-form">
+                                            <div class="comment-form-item cf">
+                                                <div class="comment-form-left">
+                                                    <div class="comment-form-writer">홍길동</div>
+                                                    <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                </div>
+                                                <div class="comment-form-right">
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="modCommentCancel(this);">수정취소</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="comment-form-item cf">
+                                                <textarea name="" id="" class="content-textarea" placeholder="댓글내용"></textarea>
+                                                <button type="button" class="content-btn content-btn-type2" onclick="modCommentSubmit('3');">확인</button>
+                                            </div>
+                                        </div>
+                                        <!-- //댓글 수정 -->
+                                    </div>
+                                    <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                    <div class="comment-list-item" data-idx="4">
+                                        <!-- 댓글 내용 -->
+                                        <div class="board-comment-form">
+                                            <div class="comment-form-item cf">
+                                                <div class="comment-form-left">
+                                                    <div class="comment-form-writer">홍길동</div>
+                                                    <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                </div>
+                                                <div class="comment-form-right">
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="modComment('4');">수정</a></div>
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="delCommentCheck(this);">삭제</a></div>
+                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="addComment(this);">답글</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="comment-form-item cf">
+                                                <div class="comment-form-con">댓글 내용이 들어갑니다.</div>
+                                            </div>
+                                        </div>
+                                        <!-- //댓글 내용 -->
+                                        <!-- 2depth -->
+                                        <div class="board-comment-list">
+                                            <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                            <div class="comment-list-item" data-idx="5">
+                                                <!-- 댓글의 답글 내용 -->
+                                                <div class="board-comment-form">
+                                                    <div class="comment-form-item cf">
+                                                        <div class="comment-form-left">
+                                                            <div class="comment-form-writer">홍길동</div>
+                                                            <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                        </div>
+                                                        <div class="comment-form-right">
+                                                            <div class="comment-form-link"><a href="javascript:void(0);" onclick="modComment('5');">수정</a></div>
+                                                            <div class="comment-form-link"><a href="javascript:void(0);" onclick="delCommentCheck(this);">삭제</a></div>
+                                                            <div class="comment-form-link"><a href="javascript:void(0);" onclick="addComment(this);">답글</a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="comment-form-item cf">
+                                                        <div class="comment-form-con">댓글 내용이 들어갑니다.</div>
+                                                    </div>
+                                                </div>
+                                                <!-- //댓글의 답글 내용 -->
+                                                <!-- 3depth -->
+                                                <div class="board-comment-list">
+                                                    <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                                    <div class="comment-list-item" data-idx="6">
+                                                        <!-- 댓글의 답글 내용 -->
+                                                        <div class="board-comment-form">
+                                                            <div class="comment-form-item cf">
+                                                                <div class="comment-form-left">
+                                                                    <div class="comment-form-writer">홍길동</div>
+                                                                    <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                                </div>
+                                                                <div class="comment-form-right">
+                                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="modComment('6');">수정</a></div>
+                                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="delCommentCheck(this);">삭제</a></div>
+                                                                    <div class="comment-form-link"><a href="javascript:void(0);" onclick="addComment(this);">답글</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="comment-form-item cf">
+                                                                <div class="comment-form-con">댓글 내용이 들어갑니다.</div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- //댓글의 답글 내용 -->
+                                                    </div>
+                                                </div>
+                                                <!-- //3depth -->
+                                            </div>
+                                            <!-- data-idx : 게시판 댓글 인덱스 값 (primary key) -->
+                                            <div class="comment-list-item" data-idx="7">
+                                                <!-- 댓글의 답글 수정 -->
+                                                <div class="board-comment-form">
+                                                    <div class="comment-form-item cf">
+                                                        <div class="comment-form-left">
+                                                            <div class="comment-form-writer">홍길동</div>
+                                                            <div class="comment-form-date">2021-10-24 12:50:00</div>
+                                                        </div>
+                                                        <div class="comment-form-right">
+                                                            <div class="comment-form-link"><a href="javascript:void(0);" onclick="modCommentCancel(this);">수정취소</a></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="comment-form-item cf">
+                                                        <textarea name="" id="" class="content-textarea" placeholder="댓글내용"></textarea>
+                                                        <button type="button" class="content-btn content-btn-type2" onclick="modCommentSubmit('7');">확인</button>
+                                                    </div>
+                                                </div>
+                                                <!-- //댓글의 답글 수정 -->
+                                            </div>
+                                        </div>
+                                        <!-- //2depth -->
+                                    </div>
+                                </div>
+                                <!-- //1depth -->
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- footer -->
+			<footer class="footer">
+				<h1 class="not-view">footer</h1>
+                
+                <div class="center-ct cf">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="../img/footer_logo.png" alt="로고"></a>
+                    </div>
+
+                    <div class="footer-info">
+                        <ul class="footer-info-link cf">
+                            <li>
+                                <a href="agreement.html">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="policy.html">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="openDefaultLayer('email-layer',this);">이메일주소무단수집거부</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer-info-tit">스페이스 모노</div>
+                        <ul class="footer-info-con cf">
+                            <li>
+                                <div class="tit">대표</div>
+                                <div class="con">홍길동</div>
+                            </li>
+                            <li>
+                                <div class="tit">사업자등록번호</div>
+                                <div class="con">000-00-00000</div>
+                            </li>
+                            <li>
+                                <div class="tit">통신판매업 신고번호</div>
+                                <div class="con">제2021-서울강남-1234호</div>
+                            </li>
+                            <li>
+                                <div class="tit">주소</div>
+                                <div class="con">서울특별시 강남구 OO로 OOO</div>
+                            </li>
+                            <li>
+                                <div class="tit">이메일</div>
+                                <div class="con">admin@jejudigitalnomad.co.kr</div>
+                            </li>
+                        </ul>
+                        <div class="footer-info-copyright">COPYRIGHT © 2021 ALL RIGHTS RESERVED.</div>
+                    </div>
+
+                    <ul class="footer-menu cf">
+                        <li>
+                            <p class="footer-menu-tit">ABOUT</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="about-service-detail.html">서비스소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-team-list.html">팀소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-space-list.html">공간소개</a>
+                                </li>
+                                <li>
+                                    <a href="about-partnership-list.html">파트너쉽</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">WORKS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="works-project-list.html">프로젝트</a>
+                                </li>
+                                <li>
+                                    <a href="works-portfolio-list.html">포트폴리오</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">PROGRAM</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="program-education-list.html">교육</a>
+                                </li>
+                                <li>
+                                    <a href="program-community-list.html">커뮤니티</a>
+                                </li>
+                                <li>
+                                    <a href="program-event-list.html">행사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">BLOG</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="blog-column-list.html">칼럼</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">RESERVATION</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="reservation-studio-list.html">스튜디오예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-office-list.html">오피스예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-conferenceroom-list.html">회의실예약</a>
+                                </li>
+                                <li>
+                                    <a href="reservation-equipment-list.html">장비예약</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="footer-menu-tit">NEWS</p>
+                            <ul class="footer-sub-menu cf">
+                                <li>
+                                    <a href="news-notice-list.html">일반공지</a>
+                                </li>
+                                <li>
+                                    <a href="news-information-list.html">생활정보</a>
+                                </li>
+                                <li>
+                                    <a href="news-job-list.html">구인구직</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+			</footer>
+            
+            <!-- back to top -->
+            <div class="back-to-top"></div>
+            
+            <!-- layer -->
+            <div class="layer-wrap" id="alert-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn confirm-btn">확인</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layer-wrap" id="confirm-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-content">
+                        <div class="layer-content-txt"></div>
+                    </div>
+                    <div class="layer-btn-area cf">
+                        <button type="button" class="layer-btn half-btn confirm-btn">확인</button>
+                        <button type="button" class="layer-btn half-btn close-btn" onclick="closeLayer(this);">취소</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="layer-wrap" id="default-layer">
+                <div class="layer-mask"></div>
+                <div class="layer-box">
+                    <div class="layer-title">
+                        <div class="layer-title-txt"></div>
+                        <button type="button" class="layer-title-btn close-btn" onclick="closeLayer(this);"><img src="../img/pop_close.png" alt="레이어닫기"></button>
+                    </div>
+                    <div class="layer-content"></div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>
